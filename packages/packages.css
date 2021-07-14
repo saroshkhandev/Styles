@@ -1,0 +1,117 @@
+/* Main Section CSS */
+
+main {
+    padding-top: 32px;
+    margin-top: 20px;
+}
+
+/* Common Section CSS */
+
+.background {
+    background: url("../images/plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+.packages {
+    border: 3px solid #0e4f1f;
+    width: 80%;
+    padding: 32px;
+    display: block;
+    margin: 20px 0;
+    border-left: none;
+    position: relative;
+}
+
+/* Plus Section CSS */
+
+#plus {
+    background: #c9e4c5f1;
+}
+
+/* Free Section CSS */
+
+#free {
+    background: #e8eee7f5;
+    float: right;
+    border: 3px solid #0e4f1f;
+    border-right: none;
+    text-align: right;
+}
+
+/* Premium Section CSS */
+
+#premium {
+    background: #0e4f1ff3;
+    display: inline-block;
+}
+
+#premium .package--title {
+    color: white;
+}
+
+#premium .package--subtitle {
+    color: #bbb;
+}
+
+/* Hover CSS */
+
+.packages:hover,
+.packages:active {
+    border: 3px solid #FFC074;
+    border-left: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#free:hover,
+#free:active {
+    border: 3px solid #FFC074;
+    border-right: none;
+}
+
+/* Anchor CSS */
+
+.packages a {
+    text-decoration: none;
+}
+
+/* Title CSS */
+
+.package--title {
+    color: black;
+}
+
+/* Subtitle CSS */
+
+.package--subtitle {
+    color: #979797;
+}
+
+/* Description CSS */
+
+.package--description {
+    color: #0e4f1f;
+    background: white;
+    padding: 16px;
+    margin-bottom: 30px;
+    border: 1px solid #0e4f1f;
+}
+
+.package__badge {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: white;
+    background: #f45454;
+    padding: 4px 6px;
+    transform: skew(-8deg);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.package__badge:hover {
+    color: #f45454;
+    background: white;
+}
